@@ -19,9 +19,17 @@ body {
     font-weight: 400;
 }
 
-.derecha { float: right; }
-.rojo { color: #FF5049 !important; }
-.rojofocus:focus { border: 1px solid #FF5049 !important; }
+.derecha { 
+    float: right; 
+}
+
+.rojo { 
+    color: #FF5049 !important; 
+}
+
+.rojofocus:focus { 
+    border: 1px solid #FF5049 !important; 
+}
 
 .cabecero {
     height: 40vh;
@@ -142,8 +150,13 @@ body {
     transition: border 0.3s;
 }
 
-.agregar_descripcion { width: 400px;}
-.agregar_valor { width: 100px;}
+.agregar_descripcion { 
+    width: 400px;
+}
+
+.agregar_valor { 
+    width: 100px;
+}
 
 .agregar_btn {
     font-size: 35px;
@@ -157,7 +170,9 @@ body {
     margin-left: 10px;
 }
 
-.agregar_btn:active { transform: translateY(2px); }
+.agregar_btn:active { 
+    transform: translateY(2px); 
+}
 
 .agregar_tipo:focus,
 .agregar_descripcion:focus,
@@ -166,7 +181,9 @@ body {
     border: 1px solid #28B9B5;
 }
 
-.agregar_btn:focus { outline: none; }
+.agregar_btn:focus { 
+    outline: none; 
+}
 
 .contenedor {
     width: 860px;
@@ -191,16 +208,24 @@ h2 {
     margin-bottom: 15px;
 }
 
-.ingreso_titulo { color: #28B9B5; }
-.egreso_titulo { color: #FF5049; }
+.ingreso_titulo { 
+    color: #28B9B5; 
+}
+.egreso_titulo { 
+    color: #FF5049; 
+}
 
 .elemento {
     padding: 13px;
     border-bottom: 1px solid #e7e7e7;
 }
 
-.elemento:first-child { border-top: 1px solid #e7e7e7; }
-.elemento:nth-child(even) { background-color: #f7f7f7; }
+.elemento:first-child { 
+    border-top: 1px solid #e7e7e7; 
+}
+.elemento:nth-child(even) { 
+    background-color: #f7f7f7; 
+}
 
 .elemento_descripcion {
     float: left;
@@ -250,9 +275,21 @@ h2 {
     display: none;
 }
 
-.elemento_eliminar--btn:focus { outline: none; }
-.elemento_eliminar--btn:active { transform: translateY(2px); }
+.elemento_eliminar--btn:focus { 
+    outline: none; 
+}
+.elemento_eliminar--btn:active { 
+    transform: translateY(2px); 
+}
 
-.elemento:hover .elemento_eliminar--btn { display: block; }
-.elemento:hover .elemento_valor { transform: translateX(-20px); }
-.elemento:hover .elemento_porcentaje { transform: translateX(-20px); }
+.elemento:hover .elemento_eliminar--btn { 
+    display: block; 
+}
+
+.elemento:hover .elemento_valor { 
+    transform: translateX(-20px); 
+
+}
+.elemento:hover .elemento_porcentaje { 
+    transform: translateX(-20px); 
+}
